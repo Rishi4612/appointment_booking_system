@@ -36,7 +36,7 @@ export default function BookingCalendar() {
 
   const handleDateChange = (date) => {
     const day = date.getDay();
-    if (day >= 1 && day <= 6) {
+    if (day >= 1 && day <= 5) {
       setSelectedDate(date);
     } else {
       alert("Mr. X is only available Monday to Friday");
